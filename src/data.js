@@ -66,16 +66,12 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: "",
-  },
-  {
     icon: <FiInstagram />,
-    href: "",
+    href: "https://www.instagram.com/?hl=en",
   },
   {
     icon: <FiGithub />,
-    href: "",
+    href: "https://github.com/vaibhav123-dev",
   },
   {
     icon: <FiDribbble />,
@@ -244,12 +240,12 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email me at vabdarwekar00@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Bucharest, Romania",
-    description: "Serving clients worldwide",
+    subtitle: "Wardha, Maharashtra",
+    description: "+91-8888511684",
   },
 ];

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // import components
-import Logo from "../assets/img/logo.svg";
+import Logo from "../assets/logo.png";
 import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import Socials from "./Socials";
@@ -24,7 +24,7 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
         <a href="#">
-          <img src={Logo} alt="" />
+          <img className="w-24" src={Logo} alt="" />
         </a>
         {/* nav */}
         <div className="hidden lg:block">

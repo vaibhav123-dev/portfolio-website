@@ -1,8 +1,8 @@
 import React from "react";
 
 // import woman image
-import WomanImg from "../assets/img/banner-woman2.webp";
-
+import WomanImg from "../assets/img/banner-women2.png";
+import resume from "../assets/Vaibhav-Darvekar.pdf";
 const Hero = () => {
   return (
     <section
@@ -19,14 +19,21 @@ const Hero = () => {
               I Build <br /> Web Interfaces.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-            A new idea comes suddenly and in a rather intuitive way, but intuition is nothing but the outcome of earlier intellectual experience.
+              A new idea comes suddenly and in a rather intuitive way, but
+              intuition is nothing but the outcome of earlier intellectual
+              experience.
             </p>
-            <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all">
-              Welcome
-            </button>
+
+            <a
+              href={resume}
+              className="btn btn-md bg-cyan-700 hover:bg-secondary-hover transition-all"
+              target="_blank"
+            >
+              Resume
+            </a>
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={WomanImg} alt="" />
+            <img className="bg-black" src={WomanImg} alt="" />
           </div>
         </div>
       </div>
