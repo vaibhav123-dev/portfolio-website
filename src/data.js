@@ -10,6 +10,7 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
 } from "react-icons/fi";
 
 // companies icons
@@ -74,8 +75,8 @@ export const social = [
     href: "https://github.com/vaibhav123-dev",
   },
   {
-    icon: <FiDribbble />,
-    href: "",
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/vaibhav-darvekar-9ba9a1217/",
   },
 ];
 

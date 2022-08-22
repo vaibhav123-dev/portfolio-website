@@ -14,36 +14,49 @@ const Projects = () => {
       name: "Quiz App",
       img: "https://user-images.githubusercontent.com/93373467/183861384-57289203-d962-4c0e-87fe-095d3b1645f7.gif",
       feature:
-        "Quiz Application made using MERN Stack. Where user can attemp quiz and get result. Also user can access his old quiz result.",
+        "Quiz Application made using MERN Stack. Where user can attemp quiz and get result. Also user can access his old quiz result. Tech-stack : [React,NodeJs,ExpressJs,MongoDB] ",
+      Link: "",
+      Github: "https://github.com/vaibhav123-dev/Quiz_App",
     },
     {
       name: "ToDo App",
       img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/todogif.fd727e07.gif",
-      feature: "Todo Application made with ReactJs",
+      feature: "Todo Application made with ReactJs. Tech-stack : [React] ",
+      Link: "https://todo-app-vab-devv.netlify.app/",
+      Github: "https://github.com/vaibhav123-dev/Todo-app-react-js",
     },
     {
       name: "Portfolio Website",
       img: "https://user-images.githubusercontent.com/93373467/183902755-f334ba41-b7d6-4e8a-88a8-ba23e1070914.gif",
       feature:
-        "Portfolio website where user can see my projects and skills. Create using ReactJs and TailwindCSS",
+        "Portfolio website where user can see my projects and skills. Tech-stack : [React,NodeJs,ExpressJs,MongoDB] ",
+      Link: "https://vaibhav-dev-portfolio.netlify.app/",
+      Github: "https://github.com/vaibhav123-dev/portfolio-website",
     },
     {
       name: "E-commerce Website",
       img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/bellavitagif.5916a95a.gif",
       feature:
-        "Fully functional E-commerce website where user can signin and buy products. Made using HTML,CSS,JavaScript,NodeJs,MongoDb,ExpressJs",
+        "Fully functional E-commerce website where user can signin and buy products. Tech-stack : [HTML,CSS,JavaScript,NodeJs,MongoDb,ExpressJs]",
+      Link: "https://bellavitaorganic-cloned.herokuapp.com/",
+      Github:
+        "https://github.com/vaibhav123-dev/Bella_Vita_Organic_Clone_Backend",
     },
     {
       name: "E-commerce Website",
       img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/plumgoodness.de00e664.png",
       feature:
-        "Frontend E-commerce website where user can signin and buy products with dummy payment.Made using HTML,CSS,JavaScript",
+        "Frontend E-commerce website where user can signin and buy products with dummy payment. Tech-stack : [HTML,CSS,JavaScript]",
+      Link: "https://plumgoodness-clone.netlify.app/",
+      Github: "https://github.com/vaibhav123-dev/Clone-of-plumgoodness.com",
     },
     {
       name: "Movie Website",
       img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/moviegif.72206402.gif",
       feature:
-        "Simple movie application where user can search for movie and get details.",
+        "Simple movie application where user can search for movie and get details. Teck-stack : [HTML,CSS,JavaScript]",
+      Link: "https://nightowl-movie-app.netlify.app/",
+      Github: "https://github.com/vaibhav123-dev/Movie-app",
     },
   ]);
   const [active, setActive] = useState(0);
