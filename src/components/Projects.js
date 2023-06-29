@@ -88,9 +88,8 @@ const Projects = () => {
                 onClick={(e) => {
                   handleClick(e, index);
                 }}
-                className={`${
-                  active === index ? "active" : ""
-                } cursor-pointer capitalize m-4`}
+                className={`${active === index ? "active" : ""
+                  } cursor-pointer capitalize m-4`}
                 key={index}
               >
                 {item.name}

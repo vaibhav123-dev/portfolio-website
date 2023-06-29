@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="flex items-center h-full pt-8">
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-teal-300 font-bold text-md mb-[22px]">
-              Hey, I'm Vaibhav! 👋
+              Hey, I'm Yash! 👋
             </p>
             <h1 className="text-4xl leading-[44px] md:text-3xl md:leading-tight lg:text-5xl lg:leading-[1.2] md:tracking-[-2px]">
               I Build <br /> Web Interfaces.
@@ -27,7 +27,7 @@ const Hero = () => {
             <a
               href={resume}
               className="btn btn-md bg-cyan-700 hover:bg-secondary-hover transition-all"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Resume
             </a>
