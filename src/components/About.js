@@ -1,7 +1,7 @@
 import React from "react";
 
 // import img
-import Image from "../assets/img/vaibhav.jpeg";
+import Image from "../assets/img/yash.png";
 import resume from "../assets/Vaibhav-Darvekar.pdf";
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col mt-20">
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
-                Vaibhav Darvekar
+                Yash Devrukhkar
               </h2>
               <p className="mb-4 text-accent">Full Stack Web Developer</p>
               <hr className="mb-8 opacity-5" />
@@ -32,7 +32,7 @@ const About = () => {
             <a
               href={resume}
               className="btn btn-md bg-cyan-700 hover:bg-secondary-hover transition-all"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Resume
             </a>
