@@ -1,9 +1,7 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -241,12 +239,12 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at vabdarwekar00@gmail.com",
+    description: "Email me at yashdevrukhkar20@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Wardha, Maharashtra",
-    description: "+91-8888511684",
+    subtitle: "Mumbai, Maharashtra",
+    description: "+91-8169705611",
   },
 ];
